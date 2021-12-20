@@ -140,10 +140,11 @@ body{
     color: var(--color-dark-two);
     border-radius: 10px;
     user-select: none;
+    transition: background, color .5s linear;
 }
 .restart_btn:hover{
     color: var(--color-light);
-    background-color: var(--color-dark-two);
+    background: var(--color-dark-two);
 }
 .result{
     font-size: 2.5rem;
